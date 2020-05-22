@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/R.Thomas/Documents/blih-1.7/0/indie/src/indie.cpp
+iostream
+-
+indie.h
+/home/R.Thomas/Documents/blih-1.7/0/indie/src/indie.h
+indie.h.in
+/home/R.Thomas/Documents/blih-1.7/0/indie/src/indie.h.in
+
+/home/R.Thomas/Documents/blih-1.7/0/indie/src/indie.h
+
+/home/R.Thomas/Documents/blih-1.7/0/indie/src/indie.h.in
+
