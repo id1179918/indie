@@ -54,45 +54,45 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/R.Thomas/Documents/blih-1.7/0/indie
+CMAKE_SOURCE_DIR = /home/R.Thomas/Documents/blih-1.7/0/indie/indie
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/R.Thomas/Documents/blih-1.7/0/indie
+CMAKE_BINARY_DIR = /home/R.Thomas/Documents/blih-1.7/0/indie/indie
 
 #=============================================================================
-# Target rules for target CMakeFiles/Indie.dir
+# Target rules for target CMakeFiles/bomberman.dir
 
 # All Build rule for target.
-CMakeFiles/Indie.dir/all:
-	$(MAKE) -f CMakeFiles/Indie.dir/build.make CMakeFiles/Indie.dir/depend
-	$(MAKE) -f CMakeFiles/Indie.dir/build.make CMakeFiles/Indie.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/R.Thomas/Documents/blih-1.7/0/indie/CMakeFiles --progress-num=1,2 "Built target Indie"
-.PHONY : CMakeFiles/Indie.dir/all
+CMakeFiles/bomberman.dir/all:
+	$(MAKE) -f CMakeFiles/bomberman.dir/build.make CMakeFiles/bomberman.dir/depend
+	$(MAKE) -f CMakeFiles/bomberman.dir/build.make CMakeFiles/bomberman.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/R.Thomas/Documents/blih-1.7/0/indie/indie/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9 "Built target bomberman"
+.PHONY : CMakeFiles/bomberman.dir/all
 
 # Include target in all.
-all: CMakeFiles/Indie.dir/all
+all: CMakeFiles/bomberman.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/Indie.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/R.Thomas/Documents/blih-1.7/0/indie/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/Indie.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/R.Thomas/Documents/blih-1.7/0/indie/CMakeFiles 0
-.PHONY : CMakeFiles/Indie.dir/rule
+CMakeFiles/bomberman.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/R.Thomas/Documents/blih-1.7/0/indie/indie/CMakeFiles 9
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/bomberman.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/R.Thomas/Documents/blih-1.7/0/indie/indie/CMakeFiles 0
+.PHONY : CMakeFiles/bomberman.dir/rule
 
 # Convenience name for target.
-Indie: CMakeFiles/Indie.dir/rule
+bomberman: CMakeFiles/bomberman.dir/rule
 
-.PHONY : Indie
-
-# clean rule for target.
-CMakeFiles/Indie.dir/clean:
-	$(MAKE) -f CMakeFiles/Indie.dir/build.make CMakeFiles/Indie.dir/clean
-.PHONY : CMakeFiles/Indie.dir/clean
+.PHONY : bomberman
 
 # clean rule for target.
-clean: CMakeFiles/Indie.dir/clean
+CMakeFiles/bomberman.dir/clean:
+	$(MAKE) -f CMakeFiles/bomberman.dir/build.make CMakeFiles/bomberman.dir/clean
+.PHONY : CMakeFiles/bomberman.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/bomberman.dir/clean
 
 .PHONY : clean
 

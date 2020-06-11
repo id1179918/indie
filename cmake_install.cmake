@@ -1,4 +1,4 @@
-# Install script for directory: /home/R.Thomas/Documents/blih-1.7/0/indie
+# Install script for directory: /home/R.Thomas/Documents/blih-1.7/0/indie/indie
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/R.Thomas/Documents/blih-1.7/0/indie/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/R.Thomas/Documents/blih-1.7/0/indie/indie/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
